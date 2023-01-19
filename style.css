@@ -1,0 +1,138 @@
+:root {
+    --global-sans-serif-font: 'Montserrat', sans-serif;
+    --global-serif-font: 'Josefin Slab', serif;
+    --global-cursive-font: 'Mrs Saint Delafield', cursive;
+    /* Color Pallete:
+      Initial Primary -  #fbeaff
+      Initial Secondary - #2c73d2  */
+    
+      --primary-color:#FA2742;
+      --secondary-color: #373833;
+      --primary-color-light:#E8EAE3;
+  }
+  
+  body {
+    font-family: var(--global-sans-serif-font) !important;
+    background-color: var(--primary-color-light);
+  }
+  p{
+    color: var(--primary-color) !important;
+    margin-top: 20px;
+  }
+ 
+  a{
+    text-decoration: none;
+
+  }
+  
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--global-serif-font) !important;
+    color: var(--secondary-color) !important;
+  }
+
+  .banner{
+    background-color: var(--primary-color-light) !important;
+  }
+
+  .text-brand{
+    color: var(--primary-color) !important;
+  }
+
+  .active{
+    background-color: var(--primary-color) !important;
+  }
+  
+  .text-primary,
+  nav .active{
+    color: var(--primary-color) !important;
+  }
+  
+  .text-secondary{
+    color: var(--secondary-color) !important;
+    font-family: var(--global-serif-font);
+  }
+  .text-cursive{
+    font-family: var(--global-cursive-font) !important;
+  }
+  
+  /* Utilities */
+
+ .navbar
+ {
+    background-color: var(--secondary-color) !important; 
+      
+  }
+
+  .navbar a:hover{
+    color: var(--primary-color) !important;
+  }
+  
+
+  .btn-primary{
+    
+    background-color: var(--primary-color) !important;
+    color: #fff !important;
+    border: 0;
+    width: max-content; 
+  }
+  .btn-secondary{
+    background-color: var(--secondary-color) !important;
+    color: #fff !important;
+    border: 0;
+  }
+
+  
+
+  .footer{
+    background-color: var(--secondary-color) !important;
+  }
+
+
+
+  .box {
+    transform: translateX(400%);
+    transition: transform 0.6s ease;
+  }
+
+  .box:nth-of-type(even){
+    transform: translateX(-400%) ;
+  }
+
+  .box.show{
+    transform: translateX(0) ;
+  }
+
+  .inner {
+    overflow: hidden;
+    transition: all 0.5s ease;
+    
+  }
+
+  
+
+  .inner:hover{
+    transform: scale(1.2);
+  }
+  
+
+ 
+  .item-list {
+    margin-top: 68px;
+    font-size: 20px;
+    justify-content: space-between;
+  }
+
+  
+
+
+  .skilsPart img {
+    width: 11%;
+    justify-content: space-between;
+    
+  }
